@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  --card-bg: #ffffff;
+}
+.dark :root {
+  --card-bg: #0b1220;
+}
+
+.card{
+  background: var(--card-bg);
+  border-radius: .75rem;
+  padding: 1rem;
+  box-shadow: 0 6px 20px rgba(2,6,23,0.06);
+}

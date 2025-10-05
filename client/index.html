@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Country GDP Records</title>
+
+  <!-- Favicon (optional, for a professional touch) -->
+  <link rel="icon" href="/favicon.ico" />
+
+  <!-- Tailwind base styles already imported via main.jsx -->
+  <style>
+    html {
+      scroll-behavior: smooth;
+      transition: background-color 0.5s ease;
+    }
+    body {
+      margin: 0;
+      font-family: 'Inter', system-ui, sans-serif;
+    }
+  </style>
+</head>
+<body class="bg-gradient-to-b from-indigo-50 to-purple-50 dark:from-gray-900 dark:to-gray-800 transition-colors duration-500">
+  <div id="root" class="min-h-screen flex flex-col"></div>
+  <script type="module" src="/src/main.jsx"></script>
+</body>
+</html>
